@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a,img{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* header start */
+
+
+
+
+
+.header-top{
+    background: #000;
+}
+
+.top-info-left{
+    display: flex;
+    align-items: center;
+}
+
+.fa-phone-alt{
+    font-size: 16px;
+    color: #969696;
+    margin-right: 15px;
+}
+
+.top-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.info-p{
+    color: #969696;
+    font-size: 12px;
+    font-family: 'PTSans-Regular';
+    margin-left: 14px;
+}
+
+.bor{
+    border-right: 1px solid #969696;
+    padding-right: 14px;
+}
+
+.top-info-right{
+    display: flex;
+    align-items: center;
+}
+
+.fa-sign-in{
+    font-size: 14px;
+    color: #969696;
+    margin-right: 10px;
+}
+
+.header-bottom{
+   background: #0F0F0F; 
+}
+
+.navbar{
+    background: transparent !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-link{
+    color: #969696 !important;
+    font-size: 14px !important;
+    font-family: 'PTSans-Regular' !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    padding: 31px 20px;
+}
+
+.nav-link:hover{
+    background: #1F1F1F !important;
+    color: #fff !important;
+}
+
+.fa-shopping-cart{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.fa-search{
+    color: #fff;
+    font-size: 22px;
+}
+
+.fa-bars{
+    color: #fff !important
+}
+
+/* header end */
+
+/* ***************************************************************************** */
+
+/* section start */
+
+.section-porten{
+    background: url(../img/Rectangle\ 3.jpg) no-repeat center/cover;
+}
+
+.mid-box{
+    margin: auto;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 154px;
+    max-width: 730px;
+    width: 100%;
+}
+
+.mid-box-img{
+    max-width: 320px;
+    width: 100%;
+}
+
+.mid-box-p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'PTSans-Regular';
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 730px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* section end */
+
+/* ******************************************************************* */
+
+/* main start */
+
+.main{
+    background: #000;
+}
+
+.blcok-watch-p{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'PTSans-Bold';
+    text-align: center;
+    padding-top: 93px;
+}
+
+.blcok-watch-p::after{
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 120px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.watch-box-img{
+    text-align: center;
+    background: #191B1C;
+    padding-top: 55px;
+    padding-bottom: 56px;
+}
+
+.watch-name{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'PTSans-Regular';
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.watch-price{
+    font-size: 16px;
+    color: #D0D0D0;
+    font-weight: 700;
+    font-family: 'PTSans-Regular';
+}
+
+.block-watch{
+    padding-bottom: 93px;
+}
+
+.greatmen{
+    background: url(../img/kostyum.png) no-repeat center/cover;
+    text-align: center;
+    min-height: 730px;
+}
+
+.new-collection{
+    margin-top: 485px;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'PTSans-Bold';
+    text-align: center;
+}
+
+.new-collection::after{
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 120px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catalog-btn{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    padding: 12px 28px;
+    transition: 0.5s;
+}
+
+.catalog-btn:hover{
+    background: gray;
+    color: #fff;
+}
+
+.galstuk{
+    background: url(../img/kostyum-2.jpg) no-repeat center/cover;
+    min-height: 600px;
+}
+
+.collection-text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.collection-h2{
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.collection-h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 120px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.collection-p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 471px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 61px;
+}
+
+.collection-a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    padding: 12px 28px;
+    transition: 0.5s;
+}
+
+.collection-a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.watch-box-img img{
+    width: 100%;
+}
+
+/* main end */
+/* *********************************************************************** */
+
+/* *********************************************************************** */
+/* shop start */
+
+.shop{
+    background: #000;
+    padding-bottom: 120px;
+}
+
+.shop-title{
+    text-transform: uppercase;
+}
+
+.shop-box{
+    margin-top: 20px;
+}
+
+/* shop end */
+/* ********************************************************* */
+
+/* ********************************************************* */
+/* brand start */
+
+.brand{
+    background: #0F0F0F;
+    padding-bottom: 74px;
+}
